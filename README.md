@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Dobrodosli
 
 You can use the [editor on GitHub](https://github.com/steph777/Provera/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
