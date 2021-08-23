@@ -1,37 +1,52 @@
-## Dobrodosli
+README
+================
 
-You can use the [editor on GitHub](https://github.com/steph777/Provera/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## R Markdown
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is an R Markdown document. Markdown is a simple formatting syntax
+for authoring HTML, PDF, and MS Word documents. For more details on
+using R Markdown see <http://rmarkdown.rstudio.com>.
 
-### Markdown
+When you click the **Knit** button a document will be generated that
+includes both content as well as the output of any embedded R code
+chunks within the document. You can embed an R code chunk like this:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+``` r
+summary(iris)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    ##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
+    ##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
+    ##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
+    ##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
+    ##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
+    ##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
+    ##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
+    ##        Species  
+    ##  setosa    :50  
+    ##  versicolor:50  
+    ##  virginica :50  
+    ##                 
+    ##                 
+    ## 
 
-### Jekyll Themes
+## Head
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/steph777/Provera/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+``` r
+head(iris)
+```
 
-### Support or Contact
+    ##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+    ## 1          5.1         3.5          1.4         0.2  setosa
+    ## 2          4.9         3.0          1.4         0.2  setosa
+    ## 3          4.7         3.2          1.3         0.2  setosa
+    ## 4          4.6         3.1          1.5         0.2  setosa
+    ## 5          5.0         3.6          1.4         0.2  setosa
+    ## 6          5.4         3.9          1.7         0.4  setosa
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+You can also embed plots, for example:
+
+![](README_files/figure-gfm/pressure-1.png)<!-- -->
+
+Note that the `echo = FALSE` parameter was added to the code chunk to
+prevent printing of the R code that generated the plot.
